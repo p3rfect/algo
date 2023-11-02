@@ -8,6 +8,7 @@
 using namespace std;
 
 //Any K <= 23 is good with M = 998244353 or M = 9223372036737335297LL (if input numbers are of long long type, then use __int128)
+//G = 3 or G = 31
 template<int M, int K, int G> struct FFT{
     int n, A[1 << K], B[1 << K];
 
